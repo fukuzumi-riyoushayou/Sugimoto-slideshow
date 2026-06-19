@@ -1,0 +1,93 @@
+*,*before,*after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+}
+
+.images .one {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.images .two {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.images .three {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.images .four {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.images .five {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.images .six {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.images p {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 48px;
+    color: white;
+    z-index: 10;
+    text-shadow: 0px 0px 10px rgba(20, 20, 20, 0.8), 0px 0px 15px rgba(20, 20, 20, 0.9);
+    font-weight: bold;
+    font-family: "Hachi Maru Pop", cursive;
+}
+
+.images a {
+    display: inline-block;
+    position: absolute;
+    width: 80%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 48px;
+    color: white;
+    z-index: 10;
+    text-shadow: 0px 0px 10px rgba(20, 20, 20, 0.8), 0px 0px 15px rgba(20, 20, 20, 0.9);
+    font-weight: bold;
+    font-family: "Hachi Maru Pop", cursive;
+}
+
+.images {
+    z-index: 1;
+    text-align: center;
+}
+
+.images img {
+    aspect-ratio: 16/9;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
